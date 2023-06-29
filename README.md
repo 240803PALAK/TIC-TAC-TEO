@@ -45,4 +45,14 @@
                         break
                      zState[value] = 1
                      turn = 1
-               cwin = check(xState, zState)
+                cwin = check(xState, zState)
+                if (cwin != -1):
+                     print("---------------------------------------------- MATCH OVER ------------------------------------------------")
+                     board(xState, zState)
+                if (cwin == 1):
+                     print(f"\n\n============================ {player1} Won ===================")
+                     exit()
+                else:
+                     print(f"\n\n============================ {player2} Won ===================")
+                     exit()
+
