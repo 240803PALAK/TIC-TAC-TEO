@@ -1,3 +1,4 @@
+
 def board(x,y):
     print(f"{'X'if x[0] else ('O' if y[0] else 0)} | {'X'if x[1] else ('O' if y[1] else 1)} | {'X'if x[2] else ('O' if y[2] else 2)} ")
     print("--|---|---")
