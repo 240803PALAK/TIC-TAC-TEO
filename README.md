@@ -43,8 +43,8 @@
                     if xState[value]==1 or zState[value]==1 :
                         print("\nThe Value is already enter")
                         break
-                     zState[value] = 1
-                     turn = 1
+                    zState[value] = 1
+                    turn = 1
                 cwin = check(xState, zState)
                 if (cwin != -1):
                      print("---------------------------------------------- MATCH OVER ------------------------------------------------")
