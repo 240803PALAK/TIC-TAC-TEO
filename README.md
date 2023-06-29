@@ -45,8 +45,7 @@ if __name__=="__main__":
                 zState[value] = 1
                 turn = 1
             cwin = check(xState, zState)
-
-            if (cwin != -1):
+                   if (cwin != -1):
                 print("---------------------------------------------- MATCH OVER ------------------------------------------------")
                 board(xState, zState)
                 if (cwin == 1):
