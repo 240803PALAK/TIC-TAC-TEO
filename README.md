@@ -10,7 +10,7 @@
     def sum(a,b,c):
        return a+b+c
     def check(xState,zState):
-       wins=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,5],[2,4,6]]
+       wins=[[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]
        for win in wins:
            if sum(xState[win[0]],xState[win[1]],xState[win[2]])==3:
                return 1
